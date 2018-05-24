@@ -37,5 +37,5 @@ for step in range(3):
 
     plt.ylim([0, 3])
 
-    fig.savefig("vdW_Versus_Ideal_at_{T}Tc.png".format(T = T))
+    fig.savefig("vdW_versus_ideal_at_{T}Tc.png".format(T = T))
     plt.show()
